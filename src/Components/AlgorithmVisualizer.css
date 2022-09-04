@@ -1,0 +1,20 @@
+
+
+.array-container {
+  /* position: absolute;
+  left: 100px;
+   */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  /* top: 100px; */
+}
+
+.bars {
+  width: 2px;
+  background-color: teal;
+  display: inline-block;
+  margin: 0 1px;
+}
